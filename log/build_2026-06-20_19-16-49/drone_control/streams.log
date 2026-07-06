@@ -1,0 +1,27 @@
+[1.405s] Invoking command in '/home/orinnano/drone_ws/src/drone_control': PYTHONPATH=/home/orinnano/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/orinnano/drone_ws/build/drone_control/build install --record /home/orinnano/drone_ws/build/drone_control/install.log --single-version-externally-managed install_data
+[1.941s] running egg_info
+[1.942s] writing ../../build/drone_control/drone_control.egg-info/PKG-INFO
+[1.943s] writing dependency_links to ../../build/drone_control/drone_control.egg-info/dependency_links.txt
+[1.943s] writing entry points to ../../build/drone_control/drone_control.egg-info/entry_points.txt
+[1.944s] writing requirements to ../../build/drone_control/drone_control.egg-info/requires.txt
+[1.944s] writing top-level names to ../../build/drone_control/drone_control.egg-info/top_level.txt
+[1.951s] reading manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[1.953s] writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[1.953s] running build
+[1.953s] running build_py
+[1.955s] running install
+[1.955s] running install_lib
+[1.959s] running install_data
+[1.959s] running install_egg_info
+[1.963s] removing '/home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.964s] Copying ../../build/drone_control/drone_control.egg-info to /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.0-py3.10.egg-info
+[1.966s] running install_scripts
+[2.009s] Installing flight_manager script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[2.010s] Installing image_loop_logger script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[2.010s] Installing landing_manager script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[2.010s] Installing landing_node script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[2.010s] Installing lawnmower script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[2.011s] Installing navigation_manager script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[2.011s] Installing takeoff_node script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[2.012s] writing list of installed files to '/home/orinnano/drone_ws/build/drone_control/install.log'
+[2.080s] Invoked command in '/home/orinnano/drone_ws/src/drone_control' returned '0': PYTHONPATH=/home/orinnano/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/orinnano/drone_ws/build/drone_control/build install --record /home/orinnano/drone_ws/build/drone_control/install.log --single-version-externally-managed install_data

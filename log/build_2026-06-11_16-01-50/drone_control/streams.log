@@ -1,0 +1,56 @@
+[1.410s] Invoking command in '/home/orinnano/drone_ws/build/drone_control': PYTHONPATH=/home/orinnano/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/orinnano/drone_ws/build/drone_control/build
+[2.012s] running develop
+[2.406s] Removing /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone-control.egg-link (link to .)
+[2.489s] Invoked command in '/home/orinnano/drone_ws/build/drone_control' returned '0': PYTHONPATH=/home/orinnano/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/orinnano/drone_ws/build/drone_control/build
+[2.494s] Invoking command in '/home/orinnano/drone_ws/src/drone_control': PYTHONPATH=/home/orinnano/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/orinnano/drone_ws/build/drone_control/build install --record /home/orinnano/drone_ws/build/drone_control/install.log --single-version-externally-managed install_data --force
+[3.045s] running egg_info
+[3.047s] writing ../../build/drone_control/drone_control.egg-info/PKG-INFO
+[3.048s] writing dependency_links to ../../build/drone_control/drone_control.egg-info/dependency_links.txt
+[3.048s] writing entry points to ../../build/drone_control/drone_control.egg-info/entry_points.txt
+[3.049s] writing requirements to ../../build/drone_control/drone_control.egg-info/requires.txt
+[3.049s] writing top-level names to ../../build/drone_control/drone_control.egg-info/top_level.txt
+[3.056s] reading manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[3.058s] writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[3.058s] running build
+[3.058s] running build_py
+[3.058s] creating /home/orinnano/drone_ws/build/drone_control/build
+[3.059s] creating /home/orinnano/drone_ws/build/drone_control/build/lib
+[3.059s] creating /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control
+[3.059s] copying drone_control/landing_manager.py -> /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control
+[3.059s] copying drone_control/takeoff_node.py -> /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control
+[3.059s] copying drone_control/flight_manager.py -> /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control
+[3.060s] copying drone_control/lawnmower.py -> /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control
+[3.060s] copying drone_control/__init__.py -> /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control
+[3.060s] copying drone_control/landing_node.py -> /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control
+[3.061s] copying drone_control/navigation_manager.py -> /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control
+[3.061s] running install
+[3.062s] running install_lib
+[3.063s] creating /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[3.064s] copying /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control/landing_manager.py -> /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[3.064s] copying /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control/takeoff_node.py -> /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[3.064s] copying /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control/flight_manager.py -> /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[3.065s] copying /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control/lawnmower.py -> /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[3.065s] copying /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control/__init__.py -> /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[3.065s] copying /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control/landing_node.py -> /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[3.065s] copying /home/orinnano/drone_ws/build/drone_control/build/lib/drone_control/navigation_manager.py -> /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[3.067s] byte-compiling /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/landing_manager.py to landing_manager.cpython-310.pyc
+[3.069s] byte-compiling /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/takeoff_node.py to takeoff_node.cpython-310.pyc
+[3.072s] byte-compiling /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/flight_manager.py to flight_manager.cpython-310.pyc
+[3.075s] byte-compiling /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/lawnmower.py to lawnmower.cpython-310.pyc
+[3.079s] byte-compiling /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/__init__.py to __init__.cpython-310.pyc
+[3.079s] byte-compiling /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/landing_node.py to landing_node.cpython-310.pyc
+[3.081s] byte-compiling /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/navigation_manager.py to navigation_manager.cpython-310.pyc
+[3.083s] running install_data
+[3.083s] copying resource/drone_control -> /home/orinnano/drone_ws/install/drone_control/share/ament_index/resource_index/packages
+[3.084s] copying package.xml -> /home/orinnano/drone_ws/install/drone_control/share/drone_control
+[3.084s] running install_egg_info
+[3.089s] Copying ../../build/drone_control/drone_control.egg-info to /home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.0-py3.10.egg-info
+[3.091s] running install_scripts
+[3.133s] Installing flight_manager script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[3.134s] Installing landing_manager script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[3.134s] Installing landing_node script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[3.135s] Installing lawnmower script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[3.135s] Installing navigation_manager script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[3.135s] Installing takeoff_node script to /home/orinnano/drone_ws/install/drone_control/lib/drone_control
+[3.136s] writing list of installed files to '/home/orinnano/drone_ws/build/drone_control/install.log'
+[3.207s] Invoked command in '/home/orinnano/drone_ws/src/drone_control' returned '0': PYTHONPATH=/home/orinnano/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orinnano/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/orinnano/drone_ws/build/drone_control/build install --record /home/orinnano/drone_ws/build/drone_control/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating drone_control.egg-info
+writing drone_control.egg-info/PKG-INFO
+writing dependency_links to drone_control.egg-info/dependency_links.txt
+writing entry points to drone_control.egg-info/entry_points.txt
+writing requirements to drone_control.egg-info/requires.txt
+writing top-level names to drone_control.egg-info/top_level.txt
+writing manifest file 'drone_control.egg-info/SOURCES.txt'
+reading manifest file 'drone_control.egg-info/SOURCES.txt'
+writing manifest file 'drone_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/python3.10/site-packages/drone-control.egg-link (link to .)
+Installing flight_manager script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control
+Installing image_loop_logger script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control
+Installing landing_manager script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control
+Installing landing_node script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control
+Installing lawnmower script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control
+Installing navigation_manager script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control
+Installing takeoff_node script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control
+
+Installed /home/orinnano/drone_ws/src/drone_control/build/drone_control
+running symlink_data
+creating /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/ament_index
+creating /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/ament_index/resource_index
+creating /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/ament_index/resource_index/packages
+symbolically linking /home/orinnano/drone_ws/src/drone_control/build/drone_control/resource/drone_control -> /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/ament_index/resource_index/packages
+symbolically linking /home/orinnano/drone_ws/src/drone_control/build/drone_control/package.xml -> /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/drone_control

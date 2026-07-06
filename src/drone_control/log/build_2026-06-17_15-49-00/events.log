@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000680] (drone_control) JobQueued: {'identifier': 'drone_control', 'dependencies': OrderedDict()}
+[0.001197] (drone_control) JobStarted: {'identifier': 'drone_control'}
+[0.099429] (-) TimerEvent: {}
+[0.199981] (-) TimerEvent: {}
+[0.300470] (-) TimerEvent: {}
+[0.400941] (-) TimerEvent: {}
+[0.501394] (-) TimerEvent: {}
+[0.602382] (-) TimerEvent: {}
+[0.703099] (-) TimerEvent: {}
+[0.803662] (-) TimerEvent: {}
+[0.904164] (-) TimerEvent: {}
+[1.004731] (-) TimerEvent: {}
+[1.105251] (-) TimerEvent: {}
+[1.205763] (-) TimerEvent: {}
+[1.306201] (-) TimerEvent: {}
+[1.399686] (drone_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/orinnano/drone_ws/src/drone_control/build/drone_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/orinnano/drone_ws/src/drone_control/build/drone_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orinnano', 'SSH_CLIENT': '10.185.194.24 52304 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orinnano', 'OLDPWD': '/home/orinnano/drone_ws/src/drone_control/drone_control', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orinnano', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/orinnano/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/orinnano/drone_ws/src/drone_control/build/drone_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.185.194.24 52304 10.185.194.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orinnano/drone_ws/src/drone_control/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.406915] (-) TimerEvent: {}
+[1.508533] (-) TimerEvent: {}
+[1.609079] (-) TimerEvent: {}
+[1.709538] (-) TimerEvent: {}
+[1.809972] (-) TimerEvent: {}
+[1.910396] (-) TimerEvent: {}
+[1.983337] (drone_control) StdoutLine: {'line': b'running develop\n'}
+[2.010518] (-) TimerEvent: {}
+[2.111013] (-) TimerEvent: {}
+[2.211475] (-) TimerEvent: {}
+[2.311931] (-) TimerEvent: {}
+[2.352014] (drone_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.352511] (drone_control) StdoutLine: {'line': b'creating drone_control.egg-info\n'}
+[2.352746] (drone_control) StdoutLine: {'line': b'writing drone_control.egg-info/PKG-INFO\n'}
+[2.353219] (drone_control) StdoutLine: {'line': b'writing dependency_links to drone_control.egg-info/dependency_links.txt\n'}
+[2.353605] (drone_control) StdoutLine: {'line': b'writing entry points to drone_control.egg-info/entry_points.txt\n'}
+[2.353872] (drone_control) StdoutLine: {'line': b'writing requirements to drone_control.egg-info/requires.txt\n'}
+[2.354056] (drone_control) StdoutLine: {'line': b'writing top-level names to drone_control.egg-info/top_level.txt\n'}
+[2.354633] (drone_control) StdoutLine: {'line': b"writing manifest file 'drone_control.egg-info/SOURCES.txt'\n"}
+[2.358518] (drone_control) StdoutLine: {'line': b"reading manifest file 'drone_control.egg-info/SOURCES.txt'\n"}
+[2.359848] (drone_control) StdoutLine: {'line': b"writing manifest file 'drone_control.egg-info/SOURCES.txt'\n"}
+[2.362805] (drone_control) StdoutLine: {'line': b'running build_ext\n'}
+[2.363310] (drone_control) StdoutLine: {'line': b'Creating /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/python3.10/site-packages/drone-control.egg-link (link to .)\n'}
+[2.365200] (drone_control) StdoutLine: {'line': b'Installing flight_manager script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control\n'}
+[2.365646] (drone_control) StdoutLine: {'line': b'Installing image_loop_logger script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control\n'}
+[2.366091] (drone_control) StdoutLine: {'line': b'Installing landing_manager script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control\n'}
+[2.366305] (drone_control) StdoutLine: {'line': b'Installing landing_node script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control\n'}
+[2.366609] (drone_control) StdoutLine: {'line': b'Installing lawnmower script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control\n'}
+[2.366915] (drone_control) StdoutLine: {'line': b'Installing navigation_manager script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control\n'}
+[2.367148] (drone_control) StdoutLine: {'line': b'Installing takeoff_node script to /home/orinnano/drone_ws/src/drone_control/install/drone_control/lib/drone_control\n'}
+[2.367376] (drone_control) StdoutLine: {'line': b'\n'}
+[2.367588] (drone_control) StdoutLine: {'line': b'Installed /home/orinnano/drone_ws/src/drone_control/build/drone_control\n'}
+[2.367792] (drone_control) StdoutLine: {'line': b'running symlink_data\n'}
+[2.368033] (drone_control) StdoutLine: {'line': b'creating /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/ament_index\n'}
+[2.368234] (drone_control) StdoutLine: {'line': b'creating /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/ament_index/resource_index\n'}
+[2.368377] (drone_control) StdoutLine: {'line': b'creating /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/ament_index/resource_index/packages\n'}
+[2.368595] (drone_control) StdoutLine: {'line': b'symbolically linking /home/orinnano/drone_ws/src/drone_control/build/drone_control/resource/drone_control -> /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/ament_index/resource_index/packages\n'}
+[2.368736] (drone_control) StdoutLine: {'line': b'symbolically linking /home/orinnano/drone_ws/src/drone_control/build/drone_control/package.xml -> /home/orinnano/drone_ws/src/drone_control/install/drone_control/share/drone_control\n'}
+[2.412057] (-) TimerEvent: {}
+[2.449483] (drone_control) CommandEnded: {'returncode': 0}
+[2.492303] (drone_control) JobEnded: {'identifier': 'drone_control', 'rc': 0}
+[2.494488] (-) EventReactorShutdown: {}

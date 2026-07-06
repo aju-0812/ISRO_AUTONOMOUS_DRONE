@@ -1,0 +1,11 @@
+[console_scripts]
+flight_ctrl = drone_control.flight_ctrl:main
+flight_manager = drone_control.flight_manager:main
+image_loop_logger = drone_control.image_loop_logger:main
+landing_manager = drone_control.landing_manager:main
+landing_node = drone_control.landing_node:main
+lawnmower = drone_control.lawnmower:main
+navigation_manager = drone_control.navigation_manager:main
+tag_detect = drone_control.tag_dect:main
+takeoff_node = drone_control.takeoff_node:main
+
